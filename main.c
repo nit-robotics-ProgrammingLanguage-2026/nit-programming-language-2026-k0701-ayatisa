@@ -2,8 +2,7 @@
 
 int func2(int a, int b);
 
-int main(void)
-{
+int main(void) {
     int n;
     int result;
     scanf("%d", &n);
@@ -12,8 +11,6 @@ int main(void)
     return 0;
 }
 
-int func2(int a, int b)
-{
-    /* TODO: a から b を引いた値を返す */
-    return 0;
+int func2(int a, int b) {
+    return a - b;
 }
